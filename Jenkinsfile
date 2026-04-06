@@ -9,7 +9,7 @@ pipeline{
     stages {
         stage('checkout') {
             steps {
-                git branch: 'Greeshma',
+                git branch: 'greesh',
                 credentialsId: 'git-cred',
                 url: 'https://github.com/greeshmakiaq/demo-frontend.git'
             }
